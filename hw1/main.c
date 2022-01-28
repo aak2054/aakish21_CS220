@@ -8,12 +8,20 @@
 
 #include "sum3or5.h"
 #include "sequence.h"
+#include "diamond.h"
+
 
 int main(void){
 	printf("sum3or5 of 10 is %d\n", sum3or5(10));
 
 	printf("sequence of 10 is %d\n", sequence(10));
 	
-	printf("The longest sequence is %d\n", longest());
+        printf("The longest sequence is %d\n", longest());
+
+        
+        diamond();
+	
+	
+	
 
 }

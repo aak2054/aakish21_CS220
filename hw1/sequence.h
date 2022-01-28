@@ -7,4 +7,4 @@ extern int sequence(int n);
 /*
 *
 */
-extern int longest(void)
+extern int longest(void);
