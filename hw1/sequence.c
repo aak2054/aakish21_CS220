@@ -24,7 +24,7 @@ int longest(void){
     int finalnum = 0;
     int Slength = 0;
 
-    for (int i = 1; i < 100; i++) {
+    for (int i = 1; i <= 1000000; i++) {
         Slength = 0;
         num = i;
         while (num != 1) {
