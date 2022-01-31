@@ -20,12 +20,12 @@ return z;
 	
 int longest(void){
     int longlen = 0;
-    int num = 0;
+    long long num = 0;
     int finalnum = 0;
     int Slength = 0;
 
-    for (int i = 1; i <= 1000000; i++) {
-        Slength = 0;
+    for (long long i = 1; i <= 1000000; i++) {
+        Slength = 1;
         num = i;
         while (num != 1) {
             if (num % 2 == 0) {
@@ -41,5 +41,5 @@ int longest(void){
         }
     }
 
-    return longlen;
+    return finalnum;
 }
