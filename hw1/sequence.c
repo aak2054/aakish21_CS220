@@ -1,4 +1,4 @@
-
+// Ed: longest should have called sequence 
 int sequence(int n){
 	
 	int z = 1;
