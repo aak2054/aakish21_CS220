@@ -1,3 +1,6 @@
+//Exam 2 , CS220 Spring
+//Anamo Kisho
+
 #include <stdio.h>
 #include "digitsum.h"
 #include <stdlib.h>
