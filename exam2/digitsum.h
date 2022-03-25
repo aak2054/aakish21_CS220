@@ -1,1 +1,1 @@
-extern int digitsum(int x, int y,int z);
+extern int digitsum(int x);
