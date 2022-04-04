@@ -8,6 +8,10 @@
 int main(int argc, char *argv[]){
 
      // TODo verify command line argument 
+     if(argc != 3){
+	   printf("Error: Wrong number of argument\n");
+           return 0;
+     }
 
      int n = atoi(argv[1]);
      int runs = atoi(argv[2]);
